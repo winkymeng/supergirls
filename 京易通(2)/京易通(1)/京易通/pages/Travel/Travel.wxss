@@ -1,0 +1,116 @@
+.travelBox {
+
+}
+.backBox {
+  width: 100%;
+  height: 120px;
+  /* border: 1px solid black; */
+}
+.backBox image {
+  width: 100%;
+  height: 100%;
+}
+/* 室外景点 */
+.shiwai {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-bottom: -5px;
+  color: white;
+  background-color: rgb(144, 180, 46);
+}
+
+/* 景点群 */
+.travelList {
+  margin: 10px auto;
+  width: 95%;
+  height: 120px;
+  position: relative;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+/* 景点图片 */
+.travelImage {
+  width: 75px;
+  height: 80px;
+  position: absolute;
+  /* border: 1px solid black; */
+  left: 10px;
+  border-radius: 10px;
+  top: 20px;
+  overflow: hidden;
+}
+.travelImage image {
+  width: 100%;
+  height: 100%;
+}
+/* 景点标题*/
+.travelTitle {
+  width: 120px;
+  height: 20px;
+  position: absolute;
+  left: 80px;
+  top: 8px;
+  text-align: center;
+  /* border: 1px solid black; */
+  position: absolute;
+}
+/* 景点标题*/
+.travelText  {
+  width: 198px;
+  height: 70px;
+  position: absolute;
+  left: 95px;
+  bottom: 9px;
+  text-align: left;
+  font-size: 12px;
+  text-indent: 2em;
+  border: 1px solid black;
+  opacity: 1;
+  position: absolute;
+}
+
+.num1{
+  background-color: rgb(236, 235, 173);
+}
+.num2{
+  background-color: rgb(173, 192, 230);
+}
+.num3{
+  background-color: rgb(201, 159, 171);
+}
+.num4{
+  background-color: rgb(167, 143, 184);
+}
+.num5{
+  background-color: rgb(199, 131, 127);
+}
+.num6{
+  background-color: rgb(134, 194, 174);
+}
+.num7{
+  background-color: rgb(155, 184, 148);
+}
+.num8{
+  background-color: rgb(206, 174, 133);
+}
+.num9{
+  background-color: rgb(187, 143, 190);
+}
+.num10{
+  background-color: rgb(146, 174, 197);
+}
+.num11{
+  background-color: rgb(139, 124, 138);
+}
+.num12{
+  background-color: rgb(228, 220, 195);
+}
+.num13{
+  background-color: rgb(147, 178, 224);
+}
+

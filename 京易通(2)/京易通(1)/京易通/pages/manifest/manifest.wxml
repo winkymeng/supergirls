@@ -1,0 +1,31 @@
+<image class="backGuoud" src="/image/愿望清单.png"></image>
+<view>旅行愿望清单</view>
+<!-- 表单大盒子 -->
+<view class="fromBox">
+<view class="addBox"></view>
+  
+<!-- 表单 -->
+  <view class="tableBox">
+    <view class="boxTixt"  wx:for="{{lists}}" >
+      想要和{{item.whO}}去{{item.placE}}
+    </view>
+  </view>
+
+  <!-- 添加按钮 -->
+  <view class="addBox">
+    <view class="addPlace add-li" bindtap='addLife'>
+    添加
+    </view>
+  </view>
+
+  <!-- 输入框盒子 旅行地点 -->
+  <view class="inputPlace" >
+    <!-- <input type="text"/> -->
+    <input class='create-li' bindchange="num1change" placeholder="请输入旅行地点"></input>
+  </view>
+
+  <!-- 输入框盒子 “和谁一起” -->
+  <view class="inputBody">
+    <input class='create-li' bindchange="num2change"  placeholder="请输入和谁在一起"></input>
+  </view>
+</view>

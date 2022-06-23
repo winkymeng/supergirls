@@ -1,0 +1,237 @@
+<!-- 出行推荐盒子 -->
+<view class="travelBox">
+  <!-- 背景大图盒子 -->
+  <view class="backBox">
+    <image src="/image/大背景图.png"></image>
+  </view>
+
+
+<!-- 室外景点 -->
+<view class="shiwai">
+  室外景点
+</view>
+  <!-- 景点群 -->
+  <view class="travelList num1">
+  <!--  图片盒子-->
+    <view class="travelImage ">
+      <image src="/image/故宫.png"></image>
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      故宫
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+     地址:北京东城区景山前街4号。开放时间:8:30-17:00；详细介绍： 是封建帝王与后妃居住之所，也就是俗称的“三宫六院”。
+    </view>
+  </view>
+
+  <!-- 景点群 -->
+  <view class="travelList num2">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/天坛.png"></image>
+     
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      天坛
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+     地址:东城区天坛东路甲1号6；开放时间:8:00-17:30；详细介绍：游览一般依次参观圆丘、皇穹宇、丹陛桥、析年殿和皇乾殿。
+    </view>
+  </view>
+
+  <!-- 景点群 -->
+  <view class="travelList num3">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/景点3.png"></image>
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      长城
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址:延庆区G6京藏高速58号;开放时间:7:00-18:00；详细介绍：长城是中国古代的军事防御工事，是一道高大、坚固而且连绵不断的长垣。
+    </view>
+  </view>
+
+ <!-- 景点群 -->
+ <view class="travelList num7">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/颐和园.png"></image>
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      颐和园
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址:海淀区新建宫门路19号；开放时间:6:30-18:00；详细介绍：中国清朝时期皇家园林，前身为清漪园，坐落在北京西郊。
+    </view>
+  </view>
+
+<!-- 景点群 -->
+<view class="travelList num8">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/圆明园.png"></image>
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      圆明园
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址:北京市海淀区清华西路28号；开放时间:9:00-19:00；详细介绍：
+     绮春园中各处小景点众多，是一个小型水景园的大集合。
+    </view>
+  </view>
+  
+  <!-- 景点群 -->
+<view class="travelList num9">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/景山公园.png"></image>
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      景山公园
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址:北京市西城区景山西街44号；开放时间:6:30-21:00；详细介绍：公园尽享天时地利，可俯瞰故宫全景，一览京城轴线。
+    </view>
+  </view>
+
+  <!-- 景点群 -->
+<view class="travelList num10">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/南锣鼓巷.png"></image>
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      南锣鼓巷
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址:东城区南锣鼓巷胡同；开放时间:全天；详细介绍：完整保存的元代胡同院落构造，规模最大，品级最高资源最丰富的棋盘式传统民居区。
+    </view>
+  </view>
+
+<!-- 室外景点 -->
+<view class="shiwai">
+  室内景点
+</view>
+  <!-- 景点群 -->
+  <view class=" travelList num4">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/首都博物馆.png"></image>
+
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle ">
+      首都博物馆
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地点: 北京市西城区复兴门外大街16号；开放时间:09:00—17:00；介绍：集收藏、展览、研究、考古、公共教育、文化交流于一体的博物馆
+    </view>
+  </view>
+
+  <!-- 景点群 -->
+  <view class="travelList num5">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/北京天文馆.png"></image>
+    
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle">
+      北京天文馆
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地点：北京西直门外大街；介绍：是国家级自然科学类专题科学博物馆，是举办天文知识展览，编辑出版和发行天文科普书刊的主要阵地。
+
+    </view>
+  </view>
+
+  
+  <!-- 景点群 -->
+  <view class="travelList num6">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/798.png"></image>
+    
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle num6">
+      798艺术区
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址：北京市朝阳区酒仙桥路2号；开放时间：每天10:00~17:00；介绍：北京的文化创意产业集聚区。
+    </view>
+  </view>
+
+<!-- 景点群 -->
+<view class="travelList num11">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/北京海洋馆.png"></image>
+    
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle num11">
+      北京海洋馆
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址：北京市海淀区高粱桥斜街乙18号；开放时间： 09:00-17:00；介绍：集观赏、科普教育、休闲娱乐和商务会展为一体的内陆水族馆。
+    </view>
+  </view>
+
+<!-- 景点群 -->
+<view class="travelList num12">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/中国电影博物馆.png"></image>
+    
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle num12">
+      中国电影博物馆
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+      地址：北京市朝阳区南影路9号；介绍；是世界上最大的国家级电影专业博物馆，是纪念中国电影诞生100周年的标志性建筑。
+    </view>
+  </view>
+
+<!-- 景点群 -->
+<view class="travelList num13">
+  <!--  图片盒子-->
+    <view class="travelImage">
+      <image src="/image/温都水城.png"></image>
+    
+    </view>
+    <!-- 景点标题 -->
+    <view class="travelTitle num13">
+      温都水城
+    </view>
+    <!-- 景点简介 -->
+    <view class="travelText">
+     地址：北京紫禁城以北龙脉的20公里处；开放时间：上午9:00-次日2:00；介绍：以水文化为特征，以温泉水的各种功能展示为载体。
+    </view>
+  </view>
+
+
+
+</view>

@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Travel/Travel",
+    "pages/manifest/manifest"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "京易通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#3378be",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "天气",
+      "iconPath": "/image/图标2.png",
+      "selectedIconPath": "/image/图标2.png"
+    },
+    {
+      "pagePath": "pages/Travel/Travel",
+      "text": "出行推荐",
+      "iconPath": "/image/图标3.png",
+      "selectedIconPath": "/image/图标3.png"
+    },
+    {
+      "pagePath": "pages/manifest/manifest",
+      "text": "旅行清单",
+      "iconPath": "/image/图标1.png",
+      "selectedIconPath": "/image/图标1.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

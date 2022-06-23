@@ -1,0 +1,73 @@
+/* 天气盒子 */
+.indexBox {}
+
+.bagBack {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  margin: 0px !important;
+  
+  background-color: rgb(191, 228, 245);
+
+}
+
+/*天气盒子  */
+.pageWeather {
+  width: 130px;
+  height: 120px;
+  position: relative;
+  /* border: 1px solid black; */
+  margin: 60px auto;
+
+}
+.cityName {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.cityNum {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+.cityImage {
+  width: 100px;
+  height: 70px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.cityImage image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 天气信息 */
+.inforWeather {
+  width: 85%;
+  height: 140px;
+  margin: 80px auto;
+  /* border: 1px solid black; */
+}
+/*  */
+.inforBoxoneOf {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 0 3px;
+  /* border: 1px solid black; */
+}
+/* 详细信息 */
+.inforText {
+  width: 100%;
+  height: 22%;
+  text-align: center;
+  line-height: 35px;
+  /* border-bottom: 1px solid black; */
+  /* background-color: rgb(172, 164, 164); */
+}

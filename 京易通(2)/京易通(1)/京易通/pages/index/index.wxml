@@ -1,0 +1,37 @@
+<!-- 天气页面 -->
+
+<view class="indexBox">
+  <!-- 天气盒子 -->
+  <view class="pageWeather">
+      <view class="cityName">{{province}}省/市 {{city}}</view>
+      <view class="cityNum">{{temperature}}度 {{weather}}</view>
+      <view class="cityImage">
+        <image src="/image/天气图标.png"></image>
+      </view>
+  </view>
+
+  <!-- 天气信息 -->
+  <view class="inforWeather">
+    <view class="inforBoxoneOf">
+      <view class="inforText">湿度</view>
+      <view class="inforText">{{humidity}}%</view>
+      <view class="inforText">风向</view>
+      <view class="inforText">{{winddirection}}</view>
+    </view>
+
+    <view class="inforBoxoneOf">
+      <view class="inforText">气压</view>
+      <view class="inforText">0hpa</view>
+      <view class="inforText">风速</view>
+      <view class="inforText">{{windpower}}km</view>
+    </view>
+
+    <view class="inforBoxoneOf">
+      <view class="inforText">能见度</view>
+      <view class="inforText">{{temperature}}km</view>
+      <view class="inforText">风力</view>
+      <view class="inforText">{{windpower}}级</view>
+    </view>
+  </view>
+
+</view><view class="bagBack"></view> 
